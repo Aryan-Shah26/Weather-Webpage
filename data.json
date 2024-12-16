@@ -1,0 +1,189 @@
+[
+  {
+    "city": "Silvassa",
+    "current": {
+      "temperature": 32,
+      "humidity": 65,
+      "wind_speed": 15,
+      "sunrise": "6:45",
+      "sunset": "18:10",
+      "condition": "Sunny"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": 28, "max": 33, "condition": "Sunny" },
+      { "date": "2024-12-14", "min": 29, "max": 34, "condition": "Cloudy" },
+      { "date": "2024-12-15", "min": 30, "max": 35, "condition": "Sunny" },
+      { "date": "2024-12-16", "min": 31, "max": 36, "condition": "Windy" }
+    ]
+  },
+  {
+    "city": "Kharagpur",
+    "current": {
+      "temperature": 26,
+      "humidity": 80,
+      "wind_speed": 12,
+      "sunrise": "6:20",
+      "sunset": "17:45",
+      "condition": "Cloudy"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": 24, "max": 28, "condition": "Rainy" },
+      { "date": "2024-12-14", "min": 23, "max": 27, "condition": "Cloudy" },
+      { "date": "2024-12-15", "min": 22, "max": 26, "condition": "Rainy" },
+      { "date": "2024-12-16", "min": 21, "max": 25, "condition": "Cloudy" }
+    ]
+  },
+  {
+    "city": "Mumbai",
+    "current": {
+      "temperature": 30,
+      "humidity": 70,
+      "wind_speed": 18,
+      "sunrise": "6:50",
+      "sunset": "18:20",
+      "condition": "Windy"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": 27, "max": 31, "condition": "Sunny" },
+      { "date": "2024-12-14", "min": 28, "max": 32, "condition": "Windy" },
+      { "date": "2024-12-15", "min": 29, "max": 33, "condition": "Cloudy" },
+      { "date": "2024-12-16", "min": 30, "max": 34, "condition": "Sunny" }
+    ]
+  },
+  {
+    "city": "New Delhi",
+    "current": {
+      "temperature": 22,
+      "humidity": 55,
+      "wind_speed": 10,
+      "sunrise": "7:00",
+      "sunset": "17:30",
+      "condition": "Cloudy"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": 19, "max": 24, "condition": "Sunny" },
+      { "date": "2024-12-14", "min": 18, "max": 23, "condition": "Cloudy" },
+      { "date": "2024-12-15", "min": 17, "max": 22, "condition": "Sunny" },
+      { "date": "2024-12-16", "min": 16, "max": 21, "condition": "Rainy" }
+    ]
+  },
+  {
+    "city": "Manali",
+    "current": {
+      "temperature": 5,
+      "humidity": 85,
+      "wind_speed": 5,
+      "sunrise": "7:15",
+      "sunset": "17:10",
+      "condition": "Snowy"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": -2, "max": 6, "condition": "Snowy" },
+      { "date": "2024-12-14", "min": -1, "max": 7, "condition": "Cloudy" },
+      { "date": "2024-12-15", "min": 0, "max": 8, "condition": "Sunny" },
+      { "date": "2024-12-16", "min": 1, "max": 9, "condition": "Snowy" }
+    ]
+  },
+  {
+    "city": "Surat",
+    "current": {
+      "temperature": 31,
+      "humidity": 60,
+      "wind_speed": 14,
+      "sunrise": "6:45",
+      "sunset": "18:15",
+      "condition": "Sunny"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": 28, "max": 32, "condition": "Sunny" },
+      { "date": "2024-12-14", "min": 27, "max": 31, "condition": "Windy" },
+      { "date": "2024-12-15", "min": 26, "max": 30, "condition": "Cloudy" },
+      { "date": "2024-12-16", "min": 25, "max": 29, "condition": "Sunny" }
+    ]
+  },
+  {
+    "city": "Ahemdabad",
+    "current": {
+      "temperature": 29,
+      "humidity": 50,
+      "wind_speed": 20,
+      "sunrise": "6:55",
+      "sunset": "18:10",
+      "condition": "Windy"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": 26, "max": 30, "condition": "Sunny" },
+      { "date": "2024-12-14", "min": 25, "max": 29, "condition": "Cloudy" },
+      { "date": "2024-12-15", "min": 24, "max": 28, "condition": "Windy" },
+      { "date": "2024-12-16", "min": 23, "max": 27, "condition": "Rainy" }
+    ]
+  },
+  {
+    "city": "Indore",
+    "current": {
+      "temperature": 27,
+      "humidity": 65,
+      "wind_speed": 12,
+      "sunrise": "6:50",
+      "sunset": "18:00",
+      "condition": "Cloudy"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": 24, "max": 28, "condition": "Cloudy" },
+      { "date": "2024-12-14", "min": 23, "max": 27, "condition": "Rainy" },
+      { "date": "2024-12-15", "min": 22, "max": 26, "condition": "Cloudy" },
+      { "date": "2024-12-16", "min": 21, "max": 25, "condition": "Sunny" }
+    ]
+  },
+  {
+    "city": "Bengaluru",
+    "current": {
+      "temperature": 25,
+      "humidity": 75,
+      "wind_speed": 10,
+      "sunrise": "6:30",
+      "sunset": "18:20",
+      "condition": "Rainy"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": 22, "max": 26, "condition": "Rainy" },
+      { "date": "2024-12-14", "min": 21, "max": 25, "condition": "Cloudy" },
+      { "date": "2024-12-15", "min": 20, "max": 24, "condition": "Sunny" },
+      { "date": "2024-12-16", "min": 19, "max": 23, "condition": "Rainy" }
+    ]
+  },
+  {
+    "city": "Kolkata",
+    "current": {
+      "temperature": 28,
+      "humidity": 85,
+      "wind_speed": 8,
+      "sunrise": "6:15",
+      "sunset": "17:30",
+      "condition": "Cloudy"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": 25, "max": 29, "condition": "Rainy" },
+      { "date": "2024-12-14", "min": 24, "max": 28, "condition": "Cloudy" },
+      { "date": "2024-12-15", "min": 23, "max": 27, "condition": "Sunny" },
+      { "date": "2024-12-16", "min": 22, "max": 26, "condition": "Rainy" }
+    ]
+  },
+  {
+    "city": "Chennai",
+    "current": {
+      "temperature": 29,
+      "humidity": 80,
+      "wind_speed": 16,
+      "sunrise": "6:10",
+      "sunset": "18:10",
+      "condition": "Rainy"
+    },
+    "forecast": [
+      { "date": "2024-12-13", "min": 26, "max": 30, "condition": "Rainy" },
+      { "date": "2024-12-14", "min": 25, "max": 29, "condition": "Cloudy" },
+      { "date": "2024-12-15", "min": 24, "max": 28, "condition": "Rainy" },
+      { "date": "2024-12-16", "min": 23, "max": 27, "condition": "Sunny" }
+    ]
+  }
+]

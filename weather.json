@@ -1,0 +1,9 @@
+
+{
+    "sunny": "fas fa-sun",
+    "cloudy": "fas fa-cloud",
+    "rainy": "fas fa-cloud-rain",
+    "windy": "fas fa-wind",
+    "snowy": "fas fa-snowflake",
+    "mist": "fa-solid fa-smog"
+}

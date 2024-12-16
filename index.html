@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-brand">
+            <i class="fa-solid fa-rainbow"></i>
+            Weather Website
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#footer">Footer</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="home">
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="toggle-data">
+            <button id="toggle-data" title="Data fetched from local file">Static Data</button>
+        </div>
+    </section>
+
+    <section id="weather">
+        <div class="current-weather">
+            <h2 id="current-city-name">Current Weather</h2>
+            <div class="current-content">
+                <div class="temperature">
+                    <div class="digits">
+                        <i class="fa-solid fa-xmark"></i>
+                        --
+                    </div>
+                    <div class="info">--</div>
+                </div>
+                <div class="sun-container">
+                    <div class="sun-status">
+                        <svg width="800" height="300" viewBox="0 0 100 10">
+                            <!-- Background Curve -->
+                            <path d="M 10 60 A 45 45 0 1 1 90 60" stroke="#ddd" stroke-width="1" fill="none"></path>
+                            <!-- Progress Curve -->
+                            <path id="progress-path" d="M 10 60 A 45 45 0 1 1 90 60" stroke="#f39c12" stroke-width="1"
+                                fill="none" stroke-dasharray="100" stroke-dashoffset="100"></path>
+                        </svg>
+                        <div class="sun-time">
+                            <div class="sunrise">
+                                <p>--</p>
+                            </div>
+                            <div class="sunset">
+                                <p>--</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="extra-info">
+                    <div class="humidity">
+                        <div class="digits">
+                            <i class="fa-solid fa-droplet"></i>
+                            <p>--</p>
+                        </div>
+                        <p id="info">Humidity</p>
+                    </div>
+                    <div class="wind">
+                        <div class="digits">
+                            <i class="fa-solid fa-wind"></i>
+                            <p>--</p>
+                        </div>
+                        <p id="info">Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="forecast-weather">
+            <h2 id="forecast-city-name">Forecast Weather</h2>
+            <div class="forecast-content">
+                <div class="forecast-entry">
+                    <div class="day-date">yyyy-mm-dd</div>
+                    <div class="temp-range">min max</div>
+                </div>
+            </div>
+    </section>
+    <hr>
+    <br>
+    <section id="about">
+        <h2>About This Website</h2>
+        <p>Welcome to our weather platform! We offer a simple and intuitive way to check real-time weather forecasts,
+            including detailed information like current temperatures, weather conditions, and sunrise/sunset times.</p>
+
+        <h3>Key Features:</h3>
+        <ul>
+            <li><strong>Dynamic Weather Data</strong>: Access up-to-date weather information fetched directly from a
+                weather API, giving you the latest forecasts for your location.</li>
+            <li><strong>Forecast with Temperature Range</strong>: View the upcoming temperature range (min and max) for
+                the next few days to help plan your activities.</li>
+            <li><strong>Sunrise and Sunset Visualization</strong>: Track the progress of the day with an interactive sun
+                path graphic, showing the time of sunrise, sunset, and the daylight progress.</li>
+            <li><strong>Easy-to-Use Interface</strong>: Our user-friendly layout ensures that you can quickly find the
+                weather information you need without any hassle.</li>
+        </ul>
+
+        <p>This platform uses live weather data from an external API for the dynamic forecast and also supports a static
+            mode where sample data is provided for demonstration purposes.</p>
+
+        <p>We hope you find this website useful for planning your day, whether you're going outdoors, traveling, or just
+            keeping an eye on the weather. Enjoy!</p>
+
+    </section>
+    <br><br>
+
+    <footer id="footer">
+        <p>&copy; 2024 Weather App</p>
+        <a href="https://linkedin.com/in/aryan-shah-b53568312/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> |
+        <a href="https://www.github.com/Aryan-Shah26" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <br>
+        <a href="#" target="_blank">Terms & Conditions</a> | <a href="#" target="_blank">Privacy Policy</a>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
