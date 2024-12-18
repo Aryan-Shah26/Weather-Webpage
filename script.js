@@ -4,7 +4,7 @@ const webElements2 = document.querySelector(".forecast-content");
 webElements1.style.display = 'none';
 webElements2.style.display = 'none';
 
-const apiKey = '1d48bf6cf307473aa98135143241212';
+const apiKey = 'your_api_key';
 
 
 // Fetch weather icons from weather.json
